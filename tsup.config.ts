@@ -6,6 +6,7 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   dts: true,
+  injectStyle:true,
   format:['esm'],
   external:['react','react-dom'],
   outDir:'dist',
